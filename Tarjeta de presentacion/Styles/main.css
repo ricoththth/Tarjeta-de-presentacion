@@ -35,6 +35,7 @@ body {
     backface-visibility: hidden;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    background-color: #f1f1f1;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -43,11 +44,12 @@ body {
   }
   
   .front {
-    background-image: url('/mnt/data/06b0010d-a7b8-40a6-9838-4a34d8f1301b.jpg');
+    /*background-image: url('');*/
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 4vw;
+    background-color: #fff;
   }
   
   .back {
