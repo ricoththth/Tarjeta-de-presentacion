@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de Presentación</title>
+  <link rel="stylesheet" href="Styles/main.css">
+</head>
+<body>
+  <div class="card-container" onclick="document.getElementById('card').classList.toggle('flipped')">
+    <div class="card" id="card">
+      <!-- Cara frontal -->
+      <div class="card-side front">
+        <div class="photo-container">
+          <img src="tu-foto.jpg" alt="Foto personal">
+        </div>
+        <div class="info">
+          <p><strong>Nombre:</strong> xxxx</p>
+          <p><strong>Profesión:</strong> Diseñadora & Serigrafista</p>
+          <p><strong>Email:</strong> xxxx@correo.com</p>
+          <p><strong>Teléfono:</strong> +57 xxx xxx xxxx</p>
+        </div>
+      </div>
+
+      <!-- Cara trasera -->
+      <div class="card-side back">
+        <div>
+          <h3 style="margin-top: 0; font-size: 1.2em;">Servicios</h3>
+          <ul style="padding-left: 1em;">
+            <li>Diseño de identidad visual</li>
+            <li>Diseño de camisetas y estampados</li>
+            <li>Serigrafía artesanal</li>
+            <li>Posters y branding artístico</li>
+          </ul>
+          <p style="margin-top: 10px; font-style: italic;">¡Hablemos de tu próximo proyecto creativo!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
