@@ -5,8 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00b300;
+    background-color: #23b523;
     font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
   }
   
   .card-container {
@@ -39,33 +40,33 @@ body {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    padding: 4vw;
+    padding: 2vw;
     box-sizing: border-box;
   }
   
   .front {
-    /*background-image: url('');*/
+    background-image: url('../back.jpg');
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4vw;
-    background-color: #fff;
+    gap: 1vw;
   }
   
   .back {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     background-color: #fff;
     transform: rotateY(180deg);
     color: #000;
-    font-size: 4vw;
+    font-size: 6vw;
   }
   
   .photo-container {
     flex: 0 0 auto;
     width: 30%;
     aspect-ratio: 4 / 5;
-    background-color: #fff;
     overflow: hidden;
-    border: 2px dashed #000;
   }
   
   .photo-container img {
